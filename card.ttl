@@ -1,0 +1,12 @@
+@prefix : <#>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix n: <http://www.w3.org/2006/vcard/ns#>.
+
+<> foaf:primaryTopic :me.
+
+:me
+    foaf:Person;
+    n:fn "MattesWhite";
+    n:note "Test to setup WebID-OIDC";
+    solid:oidcIssuer <https://google.com> .
