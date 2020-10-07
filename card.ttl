@@ -6,7 +6,7 @@
 <> foaf:primaryTopic :me.
 
 :me
-    foaf:Person;
+    a foaf:Person;
     n:fn "MattesWhite";
     n:note "Test to setup WebID-OIDC";
     solid:oidcIssuer <https://accounts.google.com> .
