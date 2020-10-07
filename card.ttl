@@ -9,4 +9,4 @@
     foaf:Person;
     n:fn "MattesWhite";
     n:note "Test to setup WebID-OIDC";
-    solid:oidcIssuer <https://google.com> .
+    solid:oidcIssuer <https://accounts.google.com> .
